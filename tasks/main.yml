@@ -1,0 +1,5 @@
+---
+- name: Change timezone to preferred locale
+  timezone:
+    name: "{{ timezone_wanted }}"
+  become: true
